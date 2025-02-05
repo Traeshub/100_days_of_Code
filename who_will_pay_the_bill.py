@@ -1,7 +1,7 @@
 friends = ["alice", "bob", "charlie", "david", "emanuel"]
 
 import random
-whos_paying = random.randint(1,5)   #randint function picks through a set of picked numbers excluding the last number(5)
+whos_paying = random.randint(0,4)   #randint function picks through a set of picked numbers excluding the last number(5)
 
 if whos_paying == 0:
     print("alice is paying!")
